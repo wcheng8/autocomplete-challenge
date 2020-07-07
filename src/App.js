@@ -1,5 +1,5 @@
-import React from 'react'
-import Autocomplete from './Autocomplete'
+import React from "react";
+import Autocomplete from "./Autocomplete";
 
 const countryList = [
 	"Afghanistan",
@@ -250,15 +250,15 @@ const countryList = [
 	"Yemen",
 	"Zambia",
 	"Zimbabwe",
-	"Åland Islands"
+	"Åland Islands",
 ];
 
 const App = () => {
-    return (
-        <div>
-            <Autocomplete possibleSearchResults={countryList}/>
-        </div>
-    )
-}
+	return (
+		<div>
+			<Autocomplete possibleSearchResults={countryList} />
+		</div>
+	);
+};
 
-export default App
+export default App;
